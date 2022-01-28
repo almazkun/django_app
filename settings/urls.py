@@ -19,5 +19,5 @@ from django.shortcuts import render
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", lambda request: render(request, "home.html"), name="home"),
+    path("", lambda request: render(request, "new_app/home.html"), name="home"),
 ]
